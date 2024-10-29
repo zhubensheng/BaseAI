@@ -4,6 +4,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,14 @@
     <PackageReference Include="AntDesign.Extensions.Localization" Version="0.20.2.1" />
     <PackageReference Include="AntDesign.ProLayout" Version="0.20.2.1" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
     <PackageReference Include="System.Net.Http.Json" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Admin.Domain\Admin.Domain.csproj" />
+    <ProjectReference Include="..\Admin.Model\Admin.Model.csproj" />
+    <ProjectReference Include="..\Admin.Repositorie\Admin.Repositorie.csproj" />
   </ItemGroup>
   
 </Project>
