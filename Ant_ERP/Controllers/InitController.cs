@@ -1,5 +1,5 @@
-﻿using Admin.Model.System;
-using Admin.Repositorie.System;
+﻿using Admin.Model.SystemModel;
+using Admin.Repositorie.ISystem;
 using AntDesign.Charts;
 using Microsoft.AspNetCore.Mvc;
 

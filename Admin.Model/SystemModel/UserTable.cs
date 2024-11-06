@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Admin.Model.System
+namespace Admin.Model.SystemModel
 {
     [SugarTable("UserTable")]
     public partial class UserTable

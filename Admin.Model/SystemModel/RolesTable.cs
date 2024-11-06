@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Admin.Model.System
+namespace Admin.Model.SystemModel
 {
     [SugarTable("RolesTable")]
     public class  RolesTable
