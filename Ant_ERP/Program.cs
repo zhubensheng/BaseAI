@@ -2,6 +2,7 @@ using Admin.Domain.Options;
 using Admin.Domain.Utils;
 using Admin.Model.SystemModel;
 using Admin.Repositorie.ISystem;
+using Ant_ERP.Utils;
 using AntDesign.ProLayout;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
@@ -59,6 +60,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 builder.Services.AddScoped<IUserTable_Repositories, UserTable_Repositories>();
+builder.Services.AddServicesFromAssemblies();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
